@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="下了一天的雨，下午快递师傅打电话叫我下楼取快递，lz我随便套件衣服拿起钥匙就冲出去了，没想到快递嗷嗷沉，好不容易弄上楼开门的时候钥匙竟然折了！lz没带手机！lz没带钱！！lz没男朋友！！！"
+        />
+
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/description"
+        />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="04-28 20:10"
+        />
+
+
+</RelativeLayout>

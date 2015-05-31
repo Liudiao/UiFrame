@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="tab_strip">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="pstsDividerColor">@android:color/transparent</item>
+        <item name="pstsDividerPadding">0dp</item>
+        <item name="pstsTabPaddingLeftRight">15dp</item>
+        <item name="pstsShouldExpand">true</item>
+        <item name="pstsIndicatorColor">@android:color/holo_blue_dark</item>
+        <item name="pstsIndicatorHeight">4dp</item>
+        <item name="pstsUnderlineHeight">0dp</item>
+    </style>
+
+</resources>
